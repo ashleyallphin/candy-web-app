@@ -1,0 +1,113 @@
+/* colors ====================
+purple - #8272ac
+yellow - #f3de48
+blue - #42b2df
+green - #8cc53e
+pink - #ea1f77
+ */
+
+.jumbotron {
+    background-color: #8272ac;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+}
+
+h2 {
+    color: #ea1f77;
+    font-size: 30px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+}
+
+h3 {
+    color: #f3de48;
+    font-size: 30px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+}
+
+.btn-default {
+    background-color: #8cc53e;
+    font-family: 'Lilita One', cursive;
+    color: white;
+    border-color: #8cc53e;
+}
+
+.btn-default:hover {
+    background-color: #8272ac;
+    font-family: 'Lilita One', cursive;
+    color: white;
+    border-color: #f3de48;
+}
+
+.btn-primary {
+    background-color: #ea1f77;
+    font-family: 'Lilita One', cursive;
+    color: white;
+    border-color: #ea1f77;
+    margin: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #ea1f77;
+    font-family: 'Lilita One', cursive;
+    color: white;
+    border-color: #f3de48;
+}
+
+.enter_section {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.devoured_candy {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.candies {
+    display: flex;
+}
+
+.devoured-candy {
+    margin: 10px;
+}
+
+.submit-new-candy {
+    background-color: #42b2df;
+    padding: 5px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.devoured-candy-box {
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.available-candy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    display: flex;
+}
+
+.devour-button {
+    float: right;
+}
+
+
